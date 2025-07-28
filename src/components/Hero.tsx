@@ -32,11 +32,11 @@ const Hero = () => {
         <div className="text-center space-y-8 max-w-4xl mx-auto">
           <div className="space-y-4">
             <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold">
-              <span className="bg-gradient-primary bg-clip-text text-transparent">
-                Desenvolvedor
-              </span>
+              <span className="text-foreground">Luan Santos</span>
               <br />
-              <span className="text-foreground">Web & IA</span>
+              <span className="bg-gradient-primary bg-clip-text text-transparent">
+                Desenvolvedor Web & IA
+              </span>
             </h1>
             <p className="text-xl md:text-2xl text-muted-foreground max-w-2xl mx-auto">
               Criando experiências digitais modernas com tecnologias avançadas e 
