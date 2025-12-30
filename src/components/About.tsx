@@ -29,16 +29,16 @@ const About = () => {
           <div className="lg:w-2/3 space-y-6">
             <Card className="variant-glass p-8 floating-card">
               <CardContent className="p-0">
-                <h3 className="text-2xl font-bold mb-4 text-primary">Desenvolvedor Web & IA</h3>
+                <h3 className="text-2xl font-bold mb-4 text-primary">Desenvolvedor Fullstack</h3>
                 <p className="text-lg text-muted-foreground leading-relaxed mb-6">
-                  Olá! Sou Luan Santos, desenvolvedor web especializado em criar soluções inovadoras 
+                  Olá! Sou Luan Santos, desenvolvedor Fullstack especializado em criar soluções inovadoras 
                   utilizando tecnologias modernas e inteligência artificial. Com experiência em 
                   desenvolvimento de aplicações web e mobile, busco sempre entregar projetos que 
                   combinam funcionalidade, design atrativo e performance otimizada.
                 </p>
                 <p className="text-lg text-muted-foreground leading-relaxed mb-6">
                   Minha paixão está em transformar ideias em realidade digital, utilizando ferramentas 
-                  como Bubble, FlutterFlow, Supabase e tecnologias de IA para criar experiências 
+                  low code e high code e tecnologias de IA para criar experiências 
                   únicas e eficientes para os usuários.
                 </p>
                 <div className="flex flex-wrap gap-4">

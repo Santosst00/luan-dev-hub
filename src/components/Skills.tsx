@@ -38,9 +38,9 @@ const Skills = () => {
       level: 92,
     },
     {
-      name: "Dart",
+      name: "Javscript",
       icon: <Code className="h-8 w-8" />,
-      description: "Linguagem de programação para Flutter e desenvolvimento mobile",
+      description: "Linguagem de programação",
       level: 80,
     },
     {

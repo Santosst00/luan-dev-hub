@@ -5,28 +5,31 @@ import { ExternalLink, Github, Bot } from "lucide-react";
 const Projects = () => {
   const projects = [
     {
-      title: "E-commerce Inteligente",
-      description: "Plataforma de vendas online com IA para recomendações personalizadas",
-      tech: ["Bubble", "Supabase", "n8n"],
-      category: "E-commerce",
-      features: ["Pagamentos automatizados", "Chatbot IA", "Analytics avançados"],
+      title: "TrackCargo",
+      description: "Plataforma de gestão e vendas para transportadoras",
+      tech: ["Html", "Css", "Javascript", "Supabase"],
+      category: "ERP",
+      features: ["Pagamentos automatizados", "Comercial", "Analytics avançados"],
       hasAI: true,
+      demoUrl: "https://trackcargo.base44.app/",
     },
     {
-      title: "App de Produtividade",
-      description: "Aplicativo mobile para gestão de tarefas com automações inteligentes",
-      tech: ["FlutterFlow", "Dart", "Supabase"],
-      category: "Mobile App",
+      title: "Aplicação base para Crm",
+      description: "Aplicação responsiva para gestão de tarefas com automações inteligentes",
+      tech: ["Html", "Css", "Javascript"],
+      category: "App PAW",
       features: ["Sincronização em tempo real", "Notificações inteligentes", "UI/UX moderna"],
       hasAI: false,
+      demoUrl: "https://boiler11.netlify.app/",
     },
     {
-      title: "Sistema de Análise de Dados",
-      description: "Dashboard interativo para análise de métricas de negócio",
-      tech: ["Python", "Streamlit", "Langchain"],
-      category: "Data Analytics",
-      features: ["Visualizações dinâmicas", "Relatórios automáticos", "Integração IA"],
+      title: "Para Além do Código, CredCenter",
+      description: "Exemplo de uma interface de um site de exemplo",
+      tech: ["Html", "Css", "Javascript"],
+      category: "Website",
+      features: ["UI/UX moderna", "Site responsivo", "Otimização SEO"],
       hasAI: true,
+      demoUrl: "https://credcenter.netlify.app/",
     },
     {
       title: "Automação de Processos",
@@ -102,14 +105,16 @@ const Projects = () => {
                 </div>
 
                 <div className="flex gap-2 pt-4">
-                  <Button variant="outline_gradient" size="sm" className="flex-1">
-                    <Github className="w-4 h-4 mr-2" />
-                    Código
-                  </Button>
-                  <Button variant="gradient" size="sm" className="flex-1">
+                  <Button variant="gradient" size="sm" className="flex-1" asChild>
+                    <a
+                      href={project.demoUrl}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
                     <ExternalLink className="w-4 h-4 mr-2" />
                     Demo
-                  </Button>
+                    </a>
+                    </Button>
                 </div>
               </CardContent>
             </Card>

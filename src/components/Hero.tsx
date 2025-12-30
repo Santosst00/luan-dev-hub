@@ -35,7 +35,7 @@ const Hero = () => {
               <span className="text-foreground">Luan Santos</span>
               <br />
               <span className="bg-gradient-primary bg-clip-text text-transparent">
-                Desenvolvedor Web & IA
+                Desenvolvedor Full-Stack
               </span>
             </h1>
             <p className="text-xl md:text-2xl text-muted-foreground max-w-2xl mx-auto">
